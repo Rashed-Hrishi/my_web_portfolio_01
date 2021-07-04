@@ -6,7 +6,13 @@ body{
     margin: 0; 
     font-family: 'Poppins', sans-serif;  
 }
-
+section{
+    height: 500px;
+}
+.top_section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
 h1{
     font-family: 'satisfy', cursive;
     /* font-size: 2.5rem; */
@@ -28,5 +34,65 @@ h1{
 .img_top{
     width: 100%;
     height: 450px;
+}
+.hire_me{
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.dream_section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream_img{
+    width: 100%;
+}
+.dream_content{
+    color: blue;
+}
+.resume{
+    color: white;
+    background-image: linear-gradient(45deg, red, blue);
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.experience_section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.style_experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 250px;
+    margin-left: 85px;
+}
+.orange{
+    color: orange;
+}
+#slice1{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, red, blue, green);
+    border-image-slice: 1;
+}
+#slice2{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,cyan, red, blue);
+    border-image-slice: 1;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+}
+footer small i{
+    color: white;
 }
 
